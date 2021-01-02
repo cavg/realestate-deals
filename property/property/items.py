@@ -7,12 +7,14 @@ import scrapy
 
 
 class PropertyItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
+    price = scrapy.Field()
     address = scrapy.Field()
     code = scrapy.Field()
-    profile = scrapy.Field()
+    location = scrapy.Field()
+    operation = scrapy.Field()
+    _type = scrapy.Field()
     date = scrapy.Field()
-    price = scrapy.Field()
+    thumb = scrapy.Field()
+    

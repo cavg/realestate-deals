@@ -1,0 +1,9 @@
+<div>
+<table>
+{% for row in results %}
+      <tr>
+         <td><a href="{{ row[1] }}" target="_blank"><img src="{{ row[0] }}" /></a></td>
+      </tr>
+{% endfor %}
+</table>
+</div>
