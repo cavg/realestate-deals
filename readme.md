@@ -1,3 +1,5 @@
+# Sites
+
 Nuroa.cl busca en:
 - portalterreno.com
 - Enlaceinmobiliario
@@ -11,3 +13,6 @@ Nuroa.cl busca en:
 
 yapo.cl
 
+# Ejecution
+
+cd property && scrapy crawl top  -o output2.json
